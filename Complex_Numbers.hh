@@ -21,8 +21,7 @@ public:
   Complex_Number operator / (const Complex_Number&);
 
   double Magnitude() {return sqrt(pow(x, 2) + pow(y, 2));}
-  double Argument(const char*);
+  double Argument(string);
   //Euler_Equation(){};
-
 };
 #endif
